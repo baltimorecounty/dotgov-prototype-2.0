@@ -1,4 +1,5 @@
 import React from "react";
+import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
 
 function App() {
   return (
