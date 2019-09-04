@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.header {
+  border-top: 10px solid #C51110;
+  width: 100%;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.brand{
+  position:relative;
+  background-color:#F7F7F7;
+  border-right: 1px solid #999999;
+}
+
+.brand span{
+  font-family: Montserrat, "sans-serif";
+  text-transform: uppercase;
+}
+
+.brand span:first-of-type {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.brand span:last-of-type{
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 10px;
+  color: #666666;
+  display: block;
+}
