@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dotgov-prototype/static/css/main.8b56fd44.chunk.css",
-    "main.js": "/dotgov-prototype/static/js/main.a93ddb95.chunk.js",
-    "main.js.map": "/dotgov-prototype/static/js/main.a93ddb95.chunk.js.map",
-    "runtime~main.js": "/dotgov-prototype/static/js/runtime~main.333b29cf.js",
-    "runtime~main.js.map": "/dotgov-prototype/static/js/runtime~main.333b29cf.js.map",
-    "static/css/2.1619a578.chunk.css": "/dotgov-prototype/static/css/2.1619a578.chunk.css",
-    "static/js/2.881d8545.chunk.js": "/dotgov-prototype/static/js/2.881d8545.chunk.js",
-    "static/js/2.881d8545.chunk.js.map": "/dotgov-prototype/static/js/2.881d8545.chunk.js.map",
-    "index.html": "/dotgov-prototype/index.html",
-    "precache-manifest.27e580c81770e8f2c2aeb4978cf5f3f8.js": "/dotgov-prototype/precache-manifest.27e580c81770e8f2c2aeb4978cf5f3f8.js",
-    "service-worker.js": "/dotgov-prototype/service-worker.js",
-    "static/css/2.1619a578.chunk.css.map": "/dotgov-prototype/static/css/2.1619a578.chunk.css.map",
-    "static/css/main.8b56fd44.chunk.css.map": "/dotgov-prototype/static/css/main.8b56fd44.chunk.css.map"
+    "main.css": "/dotgov-prototyp-2.0/static/css/main.8b56fd44.chunk.css",
+    "main.js": "/dotgov-prototyp-2.0/static/js/main.9266276f.chunk.js",
+    "main.js.map": "/dotgov-prototyp-2.0/static/js/main.9266276f.chunk.js.map",
+    "runtime~main.js": "/dotgov-prototyp-2.0/static/js/runtime~main.854066f8.js",
+    "runtime~main.js.map": "/dotgov-prototyp-2.0/static/js/runtime~main.854066f8.js.map",
+    "static/css/2.1619a578.chunk.css": "/dotgov-prototyp-2.0/static/css/2.1619a578.chunk.css",
+    "static/js/2.881d8545.chunk.js": "/dotgov-prototyp-2.0/static/js/2.881d8545.chunk.js",
+    "static/js/2.881d8545.chunk.js.map": "/dotgov-prototyp-2.0/static/js/2.881d8545.chunk.js.map",
+    "index.html": "/dotgov-prototyp-2.0/index.html",
+    "precache-manifest.946ed5a6e7267d30072a3342f1fd9902.js": "/dotgov-prototyp-2.0/precache-manifest.946ed5a6e7267d30072a3342f1fd9902.js",
+    "service-worker.js": "/dotgov-prototyp-2.0/service-worker.js",
+    "static/css/2.1619a578.chunk.css.map": "/dotgov-prototyp-2.0/static/css/2.1619a578.chunk.css.map",
+    "static/css/main.8b56fd44.chunk.css.map": "/dotgov-prototyp-2.0/static/css/main.8b56fd44.chunk.css.map"
   }
 }
