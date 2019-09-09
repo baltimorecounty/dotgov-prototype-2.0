@@ -1,7 +1,16 @@
 import React from "react";
+import MostPopularServices from "../components/MostPopularServices";
 
-const HomePage = props => {
-  return <div class="section dark">grid goes here</div>;
-};
+const HomePage = () => (
+  <div className="dg_section dark" style={{ padding: "20px 0" }}>
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <MostPopularServices />
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
 export default HomePage;
