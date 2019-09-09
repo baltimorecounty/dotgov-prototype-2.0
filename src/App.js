@@ -1,12 +1,9 @@
 import React from "react";
 import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
+import Homepage from "./components/HomePage";
 
 function App() {
-  return (
-    <div className="App">
-      <p>Welcome to the Baltimore County 2.0 Prototype</p>
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;
