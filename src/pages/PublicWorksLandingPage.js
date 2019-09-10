@@ -14,35 +14,35 @@ const services = [
     id: 2,
     name: "Trash and Recycling Facilities",
     href: "/trash-and-recycling-facilities",
-    icon: "far fa-calendar-alt",
+    icon: "fas fa-trash",
     description: "Some description goes here"
   },
   {
     id: 3,
     name: "What's Recyclable",
     href: "/whats-recyclable",
-    icon: "far fa-calendar-alt",
+    icon: "fas fa-recycle",
     description: "Some description goes here"
   },
   {
     id: 4,
     name: "Road Closures",
     href: "/road-closures",
-    icon: "far fa-calendar-alt",
+    icon: "fas fa-traffic-cone",
     description: "Some description goes here"
   },
   {
     id: 5,
     name: "Sewer Issues",
     href: "/sewer-issues",
-    icon: "far fa-calendar-alt",
+    icon: "fas fa-poo",
     description: "Some description goes here"
   },
   {
     id: 6,
     name: "Current Solicitations",
     href: "/current-solicitations",
-    icon: "far fa-calendar-alt",
+    icon: "fas fa-briefcase",
     description: "Some description goes here"
   }
 ];
