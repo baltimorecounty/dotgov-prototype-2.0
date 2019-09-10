@@ -2,7 +2,7 @@ import React from "react";
 import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
 import "./index.css";
 import Homepage from "./pages/HomePage";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import PublicWorksLandingPage from "./pages/PublicWorksLandingPage";
 
 function App() {
