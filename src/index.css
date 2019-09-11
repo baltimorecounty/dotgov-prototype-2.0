@@ -62,6 +62,7 @@
   .dg_item-grid > * {
     margin-right: 0;
     margin-bottom: 1%;
+    min-height: 125px;
     width: 100%;
   }
 
@@ -78,9 +79,7 @@
   .dg_main-content .dg_item-grid > *:nth-child(3n) {
     margin-right: 2% !important;
   }
-}
 
-@media screen and (max-width: 576px) {
   .dg_icon-link {
     display: flex;
     justify-content: flex-start;
@@ -97,7 +96,12 @@
     text-align: center;
     width: auto;
   }
+}
 
+@media screen and (max-width: 576px) {
+  .dg_item-grid > * {
+    min-height: auto;
+  }
   .dg_main-content .dg_item-grid > * {
     margin-right: 0;
     margin-bottom: 1%;
