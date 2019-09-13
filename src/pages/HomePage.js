@@ -1,6 +1,6 @@
 import React from "react";
 import MostPopularServices from "../components/MostPopularServices";
-import SectionYourGovernment from "../Sections/SectionYourGovernment";
+import SectionYourGovernment from "../sections/SectionYourGovernment";
 
 const HomePage = () => (
   <div className="dg_section dark">
