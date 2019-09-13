@@ -3,11 +3,7 @@ import NewsRoom from './NewsRoom';
 import '@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css';
 
 function App() {
-	return (
-		<div className="App">
-			<NewsRoom />
-		</div>
-	);
+	return <NewsRoom/>;
 }
 
 export default App;
