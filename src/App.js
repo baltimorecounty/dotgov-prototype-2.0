@@ -1,13 +1,17 @@
 import React from "react";
 import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
-import SectionYourGovernment from "./Sections/SectionYourGovernment";
+
+import "./index.css";
+import Homepage from "./pages/HomePage";
+import { HashRouter as Router, Route } from "react-router-dom";
+import PublicWorksLandingPage from "./pages/PublicWorksLandingPage";
+
 function App() {
   return (
-    <div className="App">
-      <p>Welcome to the Baltimore County 2.0 Prototype</p>
-
-      <SectionYourGovernment></SectionYourGovernment>
-    </div>
+    <Router>
+      <Route exact path="/" component={Homepage} />
+      <Route exact path="/public-works" component={PublicWorksLandingPage} />
+    </Router>
   );
 }
 
