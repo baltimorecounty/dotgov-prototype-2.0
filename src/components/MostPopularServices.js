@@ -1,4 +1,5 @@
 import React from "react";
+import { IconHeading } from "@baltimorecounty/dotgov-components";
 import ServicesGroup from "./ServicesGroup";
 
 const services = [
@@ -74,6 +75,14 @@ const services = [
   }
 ];
 
-const MostPopularServices = () => <ServicesGroup services={services} />;
+const MostPopularServices = () => (
+  <React.Fragment>
+    <IconHeading
+      text="Most Popular Services"
+      image="//staging.baltimorecountymd.gov/sebin/h/i/seal-color-74.png"
+    />
+    <ServicesGroup services={services} />
+  </React.Fragment>
+);
 
 export default MostPopularServices;
