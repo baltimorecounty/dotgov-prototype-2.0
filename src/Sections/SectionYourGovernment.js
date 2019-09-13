@@ -1,9 +1,8 @@
-import React from "./node_modules/react";
+import React from "react";
 import {
   IconHeading,
-  EmphasizedImage,
-  GridExample
-} from "./node_modules/@baltimorecounty/dotgov-components";
+  EmphasizedImage
+} from "@baltimorecounty/dotgov-components";
 const SectionYourGovernment = props => (
   <div>
     <div>
