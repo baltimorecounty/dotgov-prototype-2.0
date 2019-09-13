@@ -1,6 +1,9 @@
 import React from "react";
-import { AlternateList } from "@baltimorecounty/dotgov-components";
-import { AlternateListItem } from "@baltimorecounty/dotgov-components";
+import {
+  AlternateList,
+  AlternateListItem,
+  IconLink
+} from "@baltimorecounty/dotgov-components";
 
 const SiteFooter = props => {
   return (
@@ -73,11 +76,41 @@ const SiteFooter = props => {
           </div>
           <div className="col-lg-3 col-md-3 mt-5 mb-4 navigation-footer">
             <h3>Connect With Us</h3>
+            <div class="dg_social-icon_wrapper">
+              <IconLink
+                size="small"
+                href="#linkbutton-default"
+                id="linkbutton-default"
+                type="circle"
+                icon="fab fa-facebook-square"
+                description="Visit the Baltimore County Facebook Page"
+              />
+
+              <IconLink
+                size="small"
+                href="#linkbutton-default"
+                id="linkbutton-default"
+                type="circle"
+                icon="fab fa-twitter"
+                description="Visit the Baltimore County Twitter Page"
+              />
+              <IconLink
+                size="small"
+                href="#linkbutton-default"
+                id="linkbutton-default"
+                type="circle"
+                icon="fab fa-youtube"
+                description="Visit the Baltimore County YouTube Page"
+              />
+            </div>
+
             <h3>Translate</h3>
             <AlternateList>
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
+              <AlternateListItem title="Test" link="#" linkText="Español" />
+              <AlternateListItem title="Test" link="#" linkText="العربية" />
+              <AlternateListItem title="Test" link="#" linkText="Français" />
+              <AlternateListItem title="Test" link="#" linkText="Русский" />
+              <AlternateListItem title="Test" link="#" linkText="English" />
             </AlternateList>
           </div>
         </div>
