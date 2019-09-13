@@ -21,10 +21,10 @@ const SiteFooter = props => {
               <span className="logo-h1">Baltimore County</span>
               <span className="logo-sm-txt">Government</span>
             </h1>
-            <p className="mt-5">
+            <p className="mt-5 pb-3">
               <a href="https://www.google.com/maps?q=400+Washington+Avenue,+Towson+Maryland+21204&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiOn7vd5qLgAhWpnOAKHWVfBqIQ_AUIDigB">
-                <i class="fa fa-map-marker-alt" aria-hidden="true"></i> 400
-                Washington Avenue, Towson Maryland 21204
+                <i class="fa fa-map-marker-alt lg_gray" aria-hidden="true"></i>{" "}
+                400 Washington Avenue, Towson Maryland 21204
               </a>
             </p>
             <img
@@ -32,7 +32,28 @@ const SiteFooter = props => {
               src="http://staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
               alt="BaltCoGo Logo"
             />
-            <p className="download-blurb">Download now on:</p>
+            <p className="download-blurb pt-3">Download now on:</p>
+
+            <ul class="dg_alt-list">
+              <li>
+                <a
+                  title="Test"
+                  href="https://itunes.apple.com/us/app/baltcogo/id1200046300"
+                >
+                  <i class="fab fa-apple lg_gray" aria-hidden="true"></i> App
+                  Store
+                </a>
+              </li>
+              <li>
+                <a
+                  title="Test"
+                  href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en"
+                >
+                  <i class="fab fa-google-play lg_gray" aria-hidden="true"></i>{" "}
+                  Google Play
+                </a>
+              </li>
+            </ul>
           </div>
           <div className="col-lg-3 col-md-3 mt-5 mb-4 social-footer">
             <h3>Find Information</h3>
@@ -118,7 +139,7 @@ const SiteFooter = props => {
       <div className="dg_secondary-footer">
         <div className="container">
           <div className="row">
-            <div className="copyright col-md-12 col-sm-12">
+            <div className="dg_copyright col-md-12 col-sm-12">
               © Copyright 2019 Baltimore County Government
             </div>
           </div>
