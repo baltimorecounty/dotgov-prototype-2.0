@@ -10,7 +10,7 @@ const SiteFooter = props => {
           <div className="col-lg-6 col-md-6 mt-5 mb-4 about-footer">
             <div className="mb-3">
               <img
-                src="/sebin/h/i/seal-color-74.png"
+                src="http://staging.baltimorecountymd.gov/sebin/h/i/seal-color-74.png"
                 alt="Baltimore County Seal"
               />
             </div>
@@ -26,29 +26,54 @@ const SiteFooter = props => {
             </p>
             <img
               className="mb-2 img-fluid"
-              src="/sebin/t/o/homepage-baltcogo-logo-dark.png"
+              src="http://staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
               alt="BaltCoGo Logo"
             />
             <p className="download-blurb">Download now on:</p>
           </div>
           <div className="col-lg-3 col-md-3 mt-5 mb-4 social-footer">
+            <h3>Find Information</h3>
             <AlternateList>
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
+              <AlternateListItem
+                title="Find a County Service"
+                link="#"
+                linkText="Find a County Service"
+              />
+              <AlternateListItem
+                title="Phone Numbers"
+                link="#"
+                linkText="Phone Numbers"
+              />
+              <AlternateListItem
+                title="Report a Problem"
+                link="#"
+                linkText="Report a Problem"
+              />
+              <AlternateListItem
+                title="Directions"
+                link="#"
+                linkText="Directions"
+              />
             </AlternateList>
+
+            <h3>Policies</h3>
             <AlternateList>
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
+              <AlternateListItem
+                title="User Terms"
+                link="#"
+                linkText="User Terms"
+              />
+              <AlternateListItem title="Privacy" link="#" linkText="Privacy" />
+              <AlternateListItem
+                title="Reasonable Accomodation"
+                link="#"
+                linkText="Reasonable Accomodation"
+              />
             </AlternateList>
           </div>
           <div className="col-lg-3 col-md-3 mt-5 mb-4 navigation-footer">
-            <AlternateList>
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-              <AlternateListItem title="Test" link="#" linkText="Test" />
-            </AlternateList>
+            <h3>Connect With Us</h3>
+            <h3>Translate</h3>
             <AlternateList>
               <AlternateListItem title="Test" link="#" linkText="Test" />
               <AlternateListItem title="Test" link="#" linkText="Test" />
@@ -57,7 +82,7 @@ const SiteFooter = props => {
           </div>
         </div>
       </div>
-      <div className="secondary-footer bg-dark">
+      <div className="dg_secondary-footer">
         <div className="container">
           <div className="row">
             <div className="copyright col-md-12 col-sm-12">
