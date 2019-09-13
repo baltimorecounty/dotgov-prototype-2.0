@@ -1,5 +1,6 @@
 import React from "react";
 import MostPopularServices from "../components/MostPopularServices";
+import SectionYourGovernment from "../Sections/SectionYourGovernment";
 
 const HomePage = () => (
   <div className="dg_section dark">
@@ -7,6 +8,11 @@ const HomePage = () => (
       <div className="row">
         <div className="col">
           <MostPopularServices />
+        </div>
+        <div>
+          <div className="App">
+            <SectionYourGovernment></SectionYourGovernment>
+          </div>
         </div>
       </div>
     </div>
