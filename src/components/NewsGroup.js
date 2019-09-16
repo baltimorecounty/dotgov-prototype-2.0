@@ -1,5 +1,5 @@
 import React from 'react';
-import { DateNewsCard, IconHeading, Button } from '@baltimorecounty/dotgov-components';
+import { DateNewsCard,Button } from '@baltimorecounty/dotgov-components';
 const NewsGroup = (props) => {
 	const { Newsitems = [] } = props;
 	return (
