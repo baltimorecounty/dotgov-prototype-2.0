@@ -1,6 +1,6 @@
 import React from 'react';
 import MostPopularServices from '../components/MostPopularServices';
-import Transparency from '../Transparency';
+import Transparency from '../components/Transparency1';
 
 const HomePage = () => (
 	<div className="dg_section">
