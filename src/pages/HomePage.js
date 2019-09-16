@@ -1,6 +1,7 @@
 import React from "react";
-import MostPopularServices from "../components/MostPopularServices";
 import { SiteHeader } from "@baltimorecounty/dotgov-components";
+import YourGovernmentSection from "../components/sections/YourGovernmentSection";
+import MostPopularServicesSection from "../components/sections/MostPopularServicesSection";
 
 const HomePage = () => (
   <React.Fragment>
@@ -9,15 +10,8 @@ const HomePage = () => (
       subHeading="Government"
       status="Beta"
     />
-    <div className="dg_section dark">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <MostPopularServices />
-          </div>
-        </div>
-      </div>
-    </div>
+    <MostPopularServicesSection />
+    <YourGovernmentSection />
   </React.Fragment>
 );
 
