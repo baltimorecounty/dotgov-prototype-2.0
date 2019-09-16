@@ -34,7 +34,7 @@ const News = [
 
   const NewsRoom = () => (
     <React.Fragment>
-    <IconHeading text="LATEST HEADLINES" icon="fa fa-newspaper" />
+    <IconHeading text="Latest Headlines" icon="fa fa-newspaper" />
       <NewsGroup Newsitems={News} />
     </React.Fragment>
   );
