@@ -17,9 +17,6 @@ const NewsGroup = (props) => {
 					</div>
 				))}
 			</div>
-			<div style={{ display: 'flex', justifyContent: 'center', padding: '40px' }}>
-				<Button text="View all news" className="dg_button-secondary" />
-			</div>
 		</React.Fragment>
 	);
 };
