@@ -2,6 +2,7 @@ import React from "react";
 import {
   AlternateList,
   AlternateListItem,
+  CountySeal,
   IconLink
 } from "@baltimorecounty/dotgov-components";
 
@@ -12,10 +13,7 @@ const SiteFooter = props => {
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 about-footer">
             <div className="mb-3">
-              <img
-                src="http://staging.baltimorecountymd.gov/sebin/h/i/seal-color-74.png"
-                alt="Baltimore County Seal"
-              />
+              <CountySeal />
             </div>
             <h1>
               <span className="logo-h1">Baltimore County</span>

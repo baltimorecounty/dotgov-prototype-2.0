@@ -58,6 +58,10 @@
   margin-right: 5%;
 }
 
+.about-footer .dg_seal {
+  max-width: 100px;
+}
+
 .dg_social-icon_wrapper {
   margin-bottom: 40px;
 }
