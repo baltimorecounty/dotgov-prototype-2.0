@@ -55,7 +55,7 @@ const SiteFooter = props => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md- col-sm-12 mt-5 mb-4 social-footer">
+          <div className="col-lg-3 col-md-4 col-sm-12 mt-5 mb-4 social-footer">
             <h3>Find Information</h3>
             <AlternateList>
               <AlternateListItem
