@@ -1,12 +1,12 @@
 import React from "react";
 
-import SectionYourGovernment from "../Sections/SectionYourGovernment";
+import YourGovernmentSection from "../components/sections/YourGovernmentSection";
 import MostPopularServicesSection from "../components/sections/MostPopularServicesSection";
 
 const HomePage = () => (
   <React.Fragment>
     <MostPopularServicesSection />
-    <SectionYourGovernment />
+    <YourGovernmentSection />
   </React.Fragment>
 );
 
