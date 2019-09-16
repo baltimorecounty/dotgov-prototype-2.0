@@ -8,6 +8,10 @@ const HomePage = () => (
 			<div className="row">
 				<div className="col">
 					<MostPopularServices />
+				</div>
+			</div>
+			<div className="row">
+				<div className="col">
 					<Transparency />
 				</div>
 			</div>
