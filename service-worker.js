@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dotgov-prototype-2.0/precache-manifest.75f512ea13dc39ec04f5d646a7b320f2.js"
+  "/dotgov-prototype-2.0/precache-manifest.49863b49f63ebc1007d15c8daeb617cc.js"
 );
 
 self.addEventListener('message', (event) => {
