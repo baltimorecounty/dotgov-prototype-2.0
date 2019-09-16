@@ -7,7 +7,7 @@ const TransparencyGroup = (props) => {
 		<React.Fragment>
 			<div className="row">
 				{transparencyItems.map((transparencyItem) => (
-					<div className="col">
+					<div className="col .col-lg-3">
 						<IconLink
 							id={transparencyItem.id}
 							icon={transparencyItem.icon}
