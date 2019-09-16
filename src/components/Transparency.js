@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconHeading, IconLink } from '@baltimorecounty/dotgov-components';
+import { IconHeading } from '@baltimorecounty/dotgov-components';
 import TransparencyGroup from './TransparencyGroup';
 const transparencyItems = [
 	{
