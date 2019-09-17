@@ -3,7 +3,6 @@ import { IconLink } from "@baltimorecounty/dotgov-components";
 
 const ServicesGroup = props => {
   const { services = [] } = props;
-
   return (
     <div className="dg_item-grid">
       {services.map(service => (
