@@ -1,5 +1,6 @@
 import React from "react";
-//import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
+import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
+
 import "./index.css";
 import Homepage from "./pages/HomePage";
 import { HashRouter as Router, Route } from "react-router-dom";

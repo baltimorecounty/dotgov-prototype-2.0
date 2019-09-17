@@ -1,20 +1,14 @@
 import React from "react";
-import MostPopularServices from "../components/MostPopularServices";
-import SiteFooter from "../components/SiteFooter";
+
+import YourGovernmentSection from "../components/sections/YourGovernmentSection";
+import MostPopularServicesSection from "../components/sections/MostPopularServicesSection";
 
 const HomePage = () => (
-  <div id="content">
-    <div className="dg_section dark">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <MostPopularServices />
-          </div>
-        </div>
-      </div>
-    </div>
+  <React.Fragment>
+    <MostPopularServicesSection />
+    <YourGovernmentSection />
     <SiteFooter />
-  </div>
+  </React.Fragment>
 );
 
 export default HomePage;
