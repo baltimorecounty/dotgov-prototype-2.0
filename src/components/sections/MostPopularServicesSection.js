@@ -1,8 +1,9 @@
 import React from "react";
 import MostPopularServices from "../MostPopularServices";
+import { Section } from "@baltimorecounty/dotgov-components";
 
 const MostPopularServicesSection = props => (
-  <div className="dg_section dark">
+  <Section className="dark">
     <div className="container">
       <div className="row">
         <div className="col">
@@ -10,7 +11,7 @@ const MostPopularServicesSection = props => (
         </div>
       </div>
     </div>
-  </div>
+  </Section>
 );
 
 export default MostPopularServicesSection;
