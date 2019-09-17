@@ -30,7 +30,7 @@ const SiteFooter = props => {
               src="http://staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
               alt="BaltCoGo Logo"
             />
-            <p className="download-blurb pt-3">Download now on:</p>
+            <p className="dg_download-blurb pt-3">Download now on:</p>
 
             <ul class="dg_alt-list">
               <li>
@@ -38,7 +38,7 @@ const SiteFooter = props => {
                   title="Test"
                   href="https://itunes.apple.com/us/app/baltcogo/id1200046300"
                 >
-                  <i class="fab fa-apple lg_gray" aria-hidden="true"></i> App
+                  <i class="fab fa-apple dg_lg_gray" aria-hidden="true"></i> App
                   Store
                 </a>
               </li>
@@ -47,7 +47,10 @@ const SiteFooter = props => {
                   title="Test"
                   href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en"
                 >
-                  <i class="fab fa-google-play lg_gray" aria-hidden="true"></i>{" "}
+                  <i
+                    class="fab fa-google-play dg_lg_gray"
+                    aria-hidden="true"
+                  ></i>{" "}
                   Google Play
                 </a>
               </li>
