@@ -90,7 +90,7 @@ const SiteFooter = props => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 dg_social-footer">
             <h3>Connect With Us</h3>
-            <div class="dg_social-icon_wrapper">
+            <div class="dg_social-icon_container">
               <IconLink
                 size="small"
                 href="#linkbutton-default"
