@@ -2,37 +2,6 @@ import React from 'react';
 import NewsRoom from '../NewsRoom';
 import { Button, Section, IconHeading } from '@baltimorecounty/dotgov-components';
 const ctaButton = <Button text="View all news" className="dg_button-secondary" />;
-const News = [
-	{
-		id: 1,
-		date: '07/29/2019',
-		headline: 'Baltimore County Marks Progress in Rehabilitation of Winters lane Homes',
-		snippet: 'Today Baltimore County officials joined with community and...',
-		link: '//www.baltimorecountymd.gov/News/BaltimoreCountyNow'
-	},
-	{
-		id: 2,
-		date: '07/29/2019',
-		headline: 'Baltimore County Marks Progress in Rehabilitation of Winters lane Homes',
-		snippet: 'Today Baltimore County officials joined with community and...',
-		link: '//www.baltimorecountymd.gov/News/BaltimoreCountyNow'
-	},
-	{
-		id: 3,
-		date: '07/29/2019',
-		headline: 'Baltimore County Marks Progress in Rehabilitation of Winters lane Homes',
-		snippet: 'Today Baltimore County officials joined with community and...',
-		link: '//www.baltimorecountymd.gov/News/BaltimoreCountyNow'
-	},
-	{
-		id: 4,
-		date: '07/29/2019',
-		headline: 'Baltimore County Marks Progress in Rehabilitation of Winters lane Homes',
-		snippet: 'Today Baltimore County officials joined with community and...',
-		link: '//www.baltimorecountymd.gov/News/BaltimoreCountyNow'
-	}
-];
-
 const NewsRoomSection = (props) => (
 	<Section className="dark" ctaButton={ctaButton}>
 		<div className="container">
