@@ -21,7 +21,10 @@ const SiteFooter = props => {
             </h1>
             <p className="mt-5 pb-3">
               <a href="https://www.google.com/maps?q=400+Washington+Avenue,+Towson+Maryland+21204&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiOn7vd5qLgAhWpnOAKHWVfBqIQ_AUIDigB">
-                <i class="fa fa-map-marker-alt lg_gray" aria-hidden="true"></i>{" "}
+                <i
+                  className="fa fa-map-marker-alt lg_gray"
+                  aria-hidden="true"
+                ></i>{" "}
                 400 Washington Avenue, Towson Maryland 21204
               </a>
             </p>
@@ -32,14 +35,14 @@ const SiteFooter = props => {
             />
             <p className="download-blurb pt-3">Download now on:</p>
 
-            <ul class="dg_alt-list">
+            <ul className="dg_alt-list">
               <li>
                 <a
                   title="Test"
                   href="https://itunes.apple.com/us/app/baltcogo/id1200046300"
                 >
-                  <i class="fab fa-apple lg_gray" aria-hidden="true"></i> App
-                  Store
+                  <i className="fab fa-apple lg_gray" aria-hidden="true"></i>{" "}
+                  App Store
                 </a>
               </li>
               <li>
@@ -47,7 +50,10 @@ const SiteFooter = props => {
                   title="Test"
                   href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en"
                 >
-                  <i class="fab fa-google-play lg_gray" aria-hidden="true"></i>{" "}
+                  <i
+                    className="fab fa-google-play lg_gray"
+                    aria-hidden="true"
+                  ></i>{" "}
                   Google Play
                 </a>
               </li>
@@ -95,7 +101,7 @@ const SiteFooter = props => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 navigation-footer">
             <h3>Connect With Us</h3>
-            <div class="dg_social-icon_wrapper">
+            <div className="dg_social-icon_wrapper">
               <IconLink
                 size="small"
                 href="#linkbutton-default"
