@@ -6,34 +6,40 @@ import {
   IconLink
 } from "@baltimorecounty/dotgov-components";
 
+import {
+  FindInformationItems,
+  PoliciesItems,
+  TranslateItems
+} from "./data/FooterData";
+
 const SiteFooter = props => {
   return (
     <footer className="dg_county-footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 about-footer">
-            <div className="mb-3">
+          <div className="col-lg-6 col-md-12 col-sm-12 dg_brand-footer">
+            <div className="dg_seal-wrapper">
               <CountySeal />
             </div>
             <h1>
-              <span className="logo-h1">Baltimore County</span>
-              <span className="logo-sm-txt">Government</span>
+              <span className="dg_logo-h1">Baltimore County</span>
+              <span className="dg_logo-sm-txt">Government</span>
             </h1>
-            <p className="mt-5 pb-3">
+            <p>
               <a href="https://www.google.com/maps?q=400+Washington+Avenue,+Towson+Maryland+21204&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiOn7vd5qLgAhWpnOAKHWVfBqIQ_AUIDigB">
                 <i
-                  className="fa fa-map-marker-alt lg_gray"
+                  class="fa fa-map-marker-alt dg_lg_gray"
                   aria-hidden="true"
-                ></i>{" "}
+                ></i>
                 400 Washington Avenue, Towson Maryland 21204
               </a>
             </p>
             <img
-              className="mb-2 img-fluid"
+              className="img-fluid"
               src="http://staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
               alt="BaltCoGo Logo"
             />
-            <p className="download-blurb pt-3">Download now on:</p>
+            <p className="dg_download-blurb">Download now on:</p>
 
             <ul className="dg_alt-list">
               <li>
@@ -41,8 +47,8 @@ const SiteFooter = props => {
                   title="Test"
                   href="https://itunes.apple.com/us/app/baltcogo/id1200046300"
                 >
-                  <i className="fab fa-apple lg_gray" aria-hidden="true"></i>{" "}
-                  App Store
+                  <i class="fab fa-apple dg_lg_gray" aria-hidden="true"></i> App
+                  Store
                 </a>
               </li>
               <li>
@@ -51,55 +57,38 @@ const SiteFooter = props => {
                   href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en"
                 >
                   <i
-                    className="fab fa-google-play lg_gray"
+                    class="fab fa-google-play dg_lg_gray"
                     aria-hidden="true"
-                  ></i>{" "}
+                  ></i>
                   Google Play
                 </a>
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 social-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 dg_navigation-footer">
             <h3>Find Information</h3>
             <AlternateList>
-              <AlternateListItem
-                title="Find a County Service"
-                link="#"
-                linkText="Find a County Service"
-              />
-              <AlternateListItem
-                title="Phone Numbers"
-                link="#"
-                linkText="Phone Numbers"
-              />
-              <AlternateListItem
-                title="Report a Problem"
-                link="#"
-                linkText="Report a Problem"
-              />
-              <AlternateListItem
-                title="Directions"
-                link="#"
-                linkText="Directions"
-              />
+              {FindInformationItems.map(item => (
+                <AlternateListItem
+                  title={item.title}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              ))}
             </AlternateList>
 
             <h3>Policies</h3>
             <AlternateList>
-              <AlternateListItem
-                title="User Terms"
-                link="#"
-                linkText="User Terms"
-              />
-              <AlternateListItem title="Privacy" link="#" linkText="Privacy" />
-              <AlternateListItem
-                title="Reasonable Accomodation"
-                link="#"
-                linkText="Reasonable Accomodation"
-              />
+              {PoliciesItems.map(item => (
+                <AlternateListItem
+                  title={item.title}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              ))}
             </AlternateList>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 navigation-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 dg_social-footer">
             <h3>Connect With Us</h3>
             <div className="dg_social-icon_wrapper">
               <IconLink
@@ -131,11 +120,13 @@ const SiteFooter = props => {
 
             <h3>Translate</h3>
             <AlternateList>
-              <AlternateListItem title="Test" link="#" linkText="Español" />
-              <AlternateListItem title="Test" link="#" linkText="العربية" />
-              <AlternateListItem title="Test" link="#" linkText="Français" />
-              <AlternateListItem title="Test" link="#" linkText="Русский" />
-              <AlternateListItem title="Test" link="#" linkText="English" />
+              {TranslateItems.map(item => (
+                <AlternateListItem
+                  title={item.title}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              ))}
             </AlternateList>
           </div>
         </div>
