@@ -11,7 +11,7 @@ const SiteFooter = props => {
     <footer className="dg_county-footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 dg_about-footer">
+          <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 dg_brand-footer">
             <div className="mb-3">
               <CountySeal />
             </div>
