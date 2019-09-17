@@ -16,8 +16,8 @@ const SiteFooter = props => {
               <CountySeal />
             </div>
             <h1>
-              <span className="logo-h1">Baltimore County</span>
-              <span className="logo-sm-txt">Government</span>
+              <span className="dg_logo-h1">Baltimore County</span>
+              <span className="dg_logo-sm-txt">Government</span>
             </h1>
             <p className="mt-5 pb-3">
               <a href="https://www.google.com/maps?q=400+Washington+Avenue,+Towson+Maryland+21204&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiOn7vd5qLgAhWpnOAKHWVfBqIQ_AUIDigB">
