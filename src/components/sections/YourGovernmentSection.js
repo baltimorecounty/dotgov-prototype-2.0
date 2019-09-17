@@ -5,8 +5,8 @@ import {
 } from "@baltimorecounty/dotgov-components";
 
 const YourGovernmentSection = props => (
-  <div class="dg_section">
-    <div class="container">
+  <div className="dg_section">
+    <div className="container">
       <div className="row">
         <div className="col">
           <IconHeading text="Your Government" icon="fa fa-university" />
