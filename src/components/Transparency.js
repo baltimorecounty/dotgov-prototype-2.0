@@ -42,10 +42,10 @@ const transparencyItems = [
 
 const Transparency = () => (
 	<React.Fragment>
-		 <div className="dg_section"> 
+		<div className="dg_section">
 			<IconHeading text="TRANSPARENCY" icon="fa fa-search-plus" />
 			<TransparencyGroup transparencyItems={transparencyItems} />
-		 </div> 
+		</div>
 	</React.Fragment>
 );
 
