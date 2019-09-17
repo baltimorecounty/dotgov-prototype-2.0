@@ -1,7 +1,7 @@
 {
   "name": "dotgov-prototype-2.0",
   "homepage": "https://baltimorecounty.github.io/dotgov-prototype-2.0/",
-  "version": "0.1.0",
+  "version": "0.1.12",
   "private": true,
   "dependencies": {
     "@baltimorecounty/dotgov-components": "^0.1.15",
