@@ -3,7 +3,7 @@ import Transparency from '../Transparency';
 import { Section, IconHeading} from '@baltimorecounty/dotgov-components';
 
 const TransparencySection = (props) => (
-	<Section className="dark">
+	<Section className="dg_section">
 		<div className="container">
 			<div className="row">
 				<div className="col">
