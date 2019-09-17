@@ -40,13 +40,6 @@ const transparencyItems = [
 	}
 ];
 
-const Transparency = () => (
-	<React.Fragment>
-		<div className="dg_section">
-			<IconHeading text="TRANSPARENCY" icon="fa fa-search-plus" />
-			<TransparencyGroup transparencyItems={transparencyItems} />
-		</div>
-	</React.Fragment>
-);
+const Transparency = () => <TransparencyGroup transparencyItems={transparencyItems} />;
 
 export default Transparency;

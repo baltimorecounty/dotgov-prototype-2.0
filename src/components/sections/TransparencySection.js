@@ -1,16 +1,20 @@
 import React from 'react';
 import Transparency from '../Transparency';
+import { Section } from '@baltimorecounty/dotgov-components';
 
 const TransparencySection = (props) => (
-	<div className="dg_section dark">
+	<Section className="dark">
 		<div className="container">
 			<div className="row">
 				<div className="col">
-					<Transparency />
+					<IconHeading text="TRANSPARENCY" icon="fa fa-search-plus" />
 				</div>
 			</div>
+			<div className="row">
+				<Transparency />
+			</div>
 		</div>
-	</div>
+	</Section>
 );
 
 export default TransparencySection;
