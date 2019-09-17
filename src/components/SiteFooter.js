@@ -11,7 +11,7 @@ const SiteFooter = props => {
     <footer className="dg_county-footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 about-footer">
+          <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 dg_about-footer">
             <div className="mb-3">
               <CountySeal />
             </div>
@@ -53,7 +53,7 @@ const SiteFooter = props => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 social-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 dg_social-footer">
             <h3>Find Information</h3>
             <AlternateList>
               <AlternateListItem
@@ -93,7 +93,7 @@ const SiteFooter = props => {
               />
             </AlternateList>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 navigation-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 dg_navigation-footer">
             <h3>Connect With Us</h3>
             <div class="dg_social-icon_wrapper">
               <IconLink
