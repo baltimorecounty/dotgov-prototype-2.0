@@ -5,7 +5,7 @@ const NewsGroup = (props) => {
 	return (
 		<React.Fragment>
 			{Newsitems.map((Newsitem) => (
-				<div className="col col-xl-3 col-lg-6">
+				<div className="col-xl-3 col-lg-6 d-flex">
 					<DateNewsCard
 						key={Newsitem.id}
 						date={Newsitem.date}
