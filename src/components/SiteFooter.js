@@ -18,7 +18,7 @@ const SiteFooter = props => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12 dg_brand-footer">
-            <div className="dg_seal-wrapper">
+            <div className="dg_seal-container">
               <CountySeal />
             </div>
             <h1>
@@ -65,7 +65,7 @@ const SiteFooter = props => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 dg_navigation-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 .dg_footer-list-column">
             <h3>Find Information</h3>
             <AlternateList>
               {FindInformationItems.map(item => (
@@ -88,7 +88,7 @@ const SiteFooter = props => {
               ))}
             </AlternateList>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 dg_social-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 .dg_footer-list-column">
             <h3>Connect With Us</h3>
             <div class="dg_social-icon_container">
               <IconLink
