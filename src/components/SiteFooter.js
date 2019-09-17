@@ -53,7 +53,7 @@ const SiteFooter = props => {
                   <i
                     class="fab fa-google-play dg_lg_gray"
                     aria-hidden="true"
-                  ></i>{" "}
+                  ></i>
                   Google Play
                 </a>
               </li>
