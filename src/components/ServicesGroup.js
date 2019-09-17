@@ -1,5 +1,5 @@
-import React from 'react';
-import { IconLink } from '@baltimorecounty/dotgov-components';
+import React from "react";
+import { IconLink } from "@baltimorecounty/dotgov-components";
 
 const ServicesGroup = (props) => {
 	const { services = [] } = props;
