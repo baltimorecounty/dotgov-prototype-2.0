@@ -1,6 +1,6 @@
 import React from 'react';
 import Transparency from '../Transparency';
-import { Section } from '@baltimorecounty/dotgov-components';
+import { Section, IconHeading} from '@baltimorecounty/dotgov-components';
 
 const TransparencySection = (props) => (
 	<Section className="dark">
