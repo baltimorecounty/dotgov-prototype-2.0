@@ -1,5 +1,4 @@
 import React from 'react';
-import { IconHeading } from '@baltimorecounty/dotgov-components';
 import NewsGroup from './NewsGroup';
 const News = [
 	{
@@ -32,11 +31,6 @@ const News = [
 	}
 ];
 
-const NewsRoom = () => (
-	<React.Fragment>
-		<IconHeading text="Latest Headlines" icon="fa fa-newspaper" />
-		<NewsGroup Newsitems={News} />
-	</React.Fragment>
-);
+const NewsRoom = () => <NewsGroup Newsitems={News} />;
 
 export default NewsRoom;
