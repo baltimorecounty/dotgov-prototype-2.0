@@ -6,6 +6,12 @@ import {
   IconLink
 } from "@baltimorecounty/dotgov-components";
 
+import {
+  FindInformationItems,
+  PoliciesItems,
+  TranslateItems
+} from "./data/FooterData";
+
 const SiteFooter = props => {
   return (
     <footer className="dg_county-footer">
@@ -62,41 +68,24 @@ const SiteFooter = props => {
           <div className="col-lg-3 col-md-6 col-sm-12 dg_navigation-footer">
             <h3>Find Information</h3>
             <AlternateList>
-              <AlternateListItem
-                title="Find a County Service"
-                link="#"
-                linkText="Find a County Service"
-              />
-              <AlternateListItem
-                title="Phone Numbers"
-                link="#"
-                linkText="Phone Numbers"
-              />
-              <AlternateListItem
-                title="Report a Problem"
-                link="#"
-                linkText="Report a Problem"
-              />
-              <AlternateListItem
-                title="Directions"
-                link="#"
-                linkText="Directions"
-              />
+              {FindInformationItems.map(item => (
+                <AlternateListItem
+                  title={item.title}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              ))}
             </AlternateList>
 
             <h3>Policies</h3>
             <AlternateList>
-              <AlternateListItem
-                title="User Terms"
-                link="#"
-                linkText="User Terms"
-              />
-              <AlternateListItem title="Privacy" link="#" linkText="Privacy" />
-              <AlternateListItem
-                title="Reasonable Accomodation"
-                link="#"
-                linkText="Reasonable Accomodation"
-              />
+              {PoliciesItems.map(item => (
+                <AlternateListItem
+                  title={item.title}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              ))}
             </AlternateList>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 dg_social-footer">
@@ -131,11 +120,13 @@ const SiteFooter = props => {
 
             <h3>Translate</h3>
             <AlternateList>
-              <AlternateListItem title="Test" link="#" linkText="Español" />
-              <AlternateListItem title="Test" link="#" linkText="العربية" />
-              <AlternateListItem title="Test" link="#" linkText="Français" />
-              <AlternateListItem title="Test" link="#" linkText="Русский" />
-              <AlternateListItem title="Test" link="#" linkText="English" />
+              {TranslateItems.map(item => (
+                <AlternateListItem
+                  title={item.title}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              ))}
             </AlternateList>
           </div>
         </div>
