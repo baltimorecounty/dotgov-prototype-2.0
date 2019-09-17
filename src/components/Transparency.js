@@ -7,7 +7,7 @@ const transparencyItems = [
     size: "large",
     type: "circle",
     description: "Visit our users dashboard to learn more.",
-    text: "PUBLIC NOTICES",
+    text: "Public Notices",
     href: "https://www.w3schools.com"
   },
   {
@@ -16,7 +16,7 @@ const transparencyItems = [
     size: "large",
     type: "circle",
     description: "Visit our users dashboard to learn more.",
-    text: "MEETING AND EVENTS",
+    text: "Meetings and Events",
     href: "https://www.w3schools.com"
   },
   {
@@ -25,7 +25,7 @@ const transparencyItems = [
     type: "circle",
     size: "large",
     description: "Visit our users dashboard to learn more.",
-    text: "BOARDS AND COMMISSIONS",
+    text: "Boards and Commissions",
     href: "https://www.w3schools.com"
   },
   {
@@ -34,7 +34,7 @@ const transparencyItems = [
     type: "circle",
     size: "large",
     description: "Visit our users dashboard to learn more.",
-    text: "OPEN DATA",
+    text: "Open Data",
     href: "https://www.w3schools.com"
   }
 ];
