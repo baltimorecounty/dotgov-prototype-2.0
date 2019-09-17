@@ -11,26 +11,29 @@ const SiteFooter = props => {
     <footer className="dg_county-footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 mt-5 mb-4 dg_brand-footer">
-            <div className="mb-3">
+          <div className="col-lg-6 col-md-12 col-sm-12 dg_brand-footer">
+            <div className="dg_seal-wrapper">
               <CountySeal />
             </div>
             <h1>
               <span className="dg_logo-h1">Baltimore County</span>
               <span className="dg_logo-sm-txt">Government</span>
             </h1>
-            <p className="mt-5 pb-3">
+            <p>
               <a href="https://www.google.com/maps?q=400+Washington+Avenue,+Towson+Maryland+21204&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiOn7vd5qLgAhWpnOAKHWVfBqIQ_AUIDigB">
-                <i class="fa fa-map-marker-alt lg_gray" aria-hidden="true"></i>{" "}
+                <i
+                  class="fa fa-map-marker-alt dg_lg_gray"
+                  aria-hidden="true"
+                ></i>
                 400 Washington Avenue, Towson Maryland 21204
               </a>
             </p>
             <img
-              className="mb-2 img-fluid"
+              className="img-fluid"
               src="http://staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
               alt="BaltCoGo Logo"
             />
-            <p className="dg_download-blurb pt-3">Download now on:</p>
+            <p className="dg_download-blurb">Download now on:</p>
 
             <ul class="dg_alt-list">
               <li>
@@ -56,7 +59,7 @@ const SiteFooter = props => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 dg_social-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 dg_navigation-footer">
             <h3>Find Information</h3>
             <AlternateList>
               <AlternateListItem
@@ -96,7 +99,7 @@ const SiteFooter = props => {
               />
             </AlternateList>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 mt-5 mb-4 dg_navigation-footer">
+          <div className="col-lg-3 col-md-6 col-sm-12 dg_social-footer">
             <h3>Connect With Us</h3>
             <div class="dg_social-icon_wrapper">
               <IconLink
