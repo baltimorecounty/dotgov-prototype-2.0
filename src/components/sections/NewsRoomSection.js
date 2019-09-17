@@ -7,7 +7,7 @@ const NewsRoomSection = (props) => (
 		<div className="container">
 			<div className="row">
 				<div className="col">
-					<IconHeading text="Latest Headlines" icon="fa fa-newspaper" />
+					<IconHeading text="Latest Headlines" icon="far fa-newspaper" />
 				</div>
 			</div>
 			<div className="row">
