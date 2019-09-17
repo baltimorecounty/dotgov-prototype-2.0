@@ -7,7 +7,7 @@ const TransparencySection = (props) => (
 		<div className="container">
 			<div className="row">
 				<div className="col">
-					<IconHeading text="TRANSPARENCY" icon="fa fa-search-plus" />
+					<IconHeading text="TRANSPARENCY" icon="far fa-search-plus" />
 				</div>
 			</div>
 			<div className="row">
