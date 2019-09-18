@@ -3,7 +3,8 @@ import {
   AlternateList,
   AlternateListItem,
   CountySeal,
-  IconLink
+  IconLink,
+  BrandText
 } from "@baltimorecounty/dotgov-components";
 
 import {
@@ -21,10 +22,7 @@ const SiteFooter = props => {
             <div className="dg_seal-wrapper">
               <CountySeal />
             </div>
-            <h1>
-              <span className="dg_logo-h1">Baltimore County</span>
-              <span className="dg_logo-sm-txt">Government</span>
-            </h1>
+            <BrandText header="Baltimore County" description="Government" />
             <p>
               <a href="https://www.google.com/maps?q=400+Washington+Avenue,+Towson+Maryland+21204&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiOn7vd5qLgAhWpnOAKHWVfBqIQ_AUIDigB">
                 <i
