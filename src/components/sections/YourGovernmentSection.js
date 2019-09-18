@@ -6,7 +6,7 @@ import {
 } from "@baltimorecounty/dotgov-components";
 
 const YourGovernmentSection = props => (
-  <Section>
+  <div>
     <div className="container">
       <div className="row">
         <div className="col">
@@ -32,7 +32,7 @@ const YourGovernmentSection = props => (
         </div>
       </div>
     </div>
-  </Section>
+  </div>
 );
 
 export default YourGovernmentSection;
