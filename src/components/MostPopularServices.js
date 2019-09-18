@@ -77,11 +77,14 @@ const services = [
 
 const MostPopularServices = () => (
   <React.Fragment>
-    <IconHeading
-      text="Most Popular Services"
-      image="//staging.baltimorecountymd.gov/sebin/h/i/seal-color-74.png"
-    />
-    <ServicesGroup services={services} />
+    <div className="dg_section dark">
+      <IconHeading
+        text="Most Popular Services"
+        image="//staging.baltimorecountymd.gov/sebin/h/i/seal-color-74.png"
+      />
+
+      <ServicesGroup services={services} />
+    </div>
   </React.Fragment>
 );
 
