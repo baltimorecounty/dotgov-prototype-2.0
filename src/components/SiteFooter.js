@@ -86,6 +86,7 @@ const SiteFooter = props => {
                   <AlternateList>
                     {FindInformationItems.map(item => (
                       <AlternateListItem
+                        key={item.title}
                         title={item.title}
                         link={item.link}
                         linkText={item.linkText}
@@ -98,6 +99,7 @@ const SiteFooter = props => {
                   <AlternateList>
                     {PoliciesItems.map(item => (
                       <AlternateListItem
+                        key={item.title}
                         title={item.title}
                         link={item.link}
                         linkText={item.linkText}
@@ -141,6 +143,7 @@ const SiteFooter = props => {
                   <AlternateList>
                     {TranslateItems.map(item => (
                       <AlternateListItem
+                        key={item.title}
                         title={item.title}
                         link={item.link}
                         linkText={item.linkText}
