@@ -11,8 +11,14 @@ During the development phase of the dotgov-components project sometimes we need 
 5. Create a feature branch for whichever prototype feature you are working, something like {feature}
 6. Open up a terminal in the root of your project and run `npm link @baltimorecounty/dotgov-components` this will link the dotgov npm package locally
 
-You are now linked locally, the process requires one additional step.
+You are now linked locally instead of pulling components from [npmjs.com](https://www.npmjs.com/)
 
-In the dotgov-components project, go to the terminal and run `npm run-script watch-css`. By doing this as you make the css tweaks needed in the dotgov components project, your prototypes project will automatically be updated.
+### Updating dotgov-components css
+
+Go to the terminal and run `npm run-script watch-css`. By doing this as you make the css tweaks needed in the dotgov components project, your prototypes project will automatically be updated.
 
 Note: These changes will only be visible on your machine, once we are happy with the changes, and both projects have been reviewed, development will push the changes to npm as a beta package until we hit a release.
+
+### Updating dotgov-components react components
+
+If you need to make any changes any changes you will need to run `npm run-script build-demo` in order for the prototype to pick up your changes. These changes are manual, not automatic like the css changes.
