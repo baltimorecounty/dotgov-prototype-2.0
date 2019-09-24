@@ -22,3 +22,5 @@ Note: These changes will only be visible on your machine, once we are happy with
 ### Updating dotgov-components react components
 
 If you need to make any changes any changes you will need to run `npm run-script build-demo` in order for the prototype to pick up your changes. These changes are manual, not automatic like the css changes.
+
+You will probably need to restart your prototype using `npm start` if it is already running.
