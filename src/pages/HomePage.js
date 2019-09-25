@@ -1,5 +1,6 @@
 import React from "react";
 import { SiteHeader } from "@baltimorecounty/dotgov-components";
+import SiteFooter from "../components/SiteFooter";
 import MostPopularServicesSection from "../components/sections/MostPopularServicesSection";
 import NewsRoomSection from "../components/sections/NewsRoomSection";
 import TransparencySection from "../components/sections/TransparencySection";
@@ -16,6 +17,7 @@ const HomePage = () => (
     <YourGovernmentSection />
     <NewsRoomSection />
     <TransparencySection />
+    <SiteFooter />
   </React.Fragment>
 );
 
