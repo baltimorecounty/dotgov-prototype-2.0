@@ -80,7 +80,7 @@ const MostPopularServices = () => (
     <div className="dg_section dark">
       <IconHeading
         text="Most Popular Services"
-        image="//staging.baltimorecountymd.gov/sebin/h/i/seal-color-74.png"
+        image="//baltimorecountymd.gov/sebin/p/u/county-seal.svg"
       />
 
       <ServicesGroup services={services} />
