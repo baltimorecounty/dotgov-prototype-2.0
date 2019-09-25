@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
 
 import "./index.css";
