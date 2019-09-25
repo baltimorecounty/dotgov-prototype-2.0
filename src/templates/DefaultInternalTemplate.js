@@ -1,10 +1,13 @@
 import React from "react";
 import { PageHeader } from "@baltimorecounty/dotgov-components";
+import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
 
 const DefaultInternalTemplate = props => {
   const { MainContent, SideBar, mainContentTitle, sideBarTitle } = props;
   return (
     <div className="dg_internal-template">
+      <SiteHeader />
       <PageHeader
         title="Public Works"
         preTitle="Department of"
@@ -28,6 +31,7 @@ const DefaultInternalTemplate = props => {
           </div>
         </div>
       </div>
+      <SiteFooter />
     </div>
   );
 };
