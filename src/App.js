@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "@baltimorecounty/dotgov-components/lib/styles/dotgov.min.css";
 
 import "./index.css";
@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Route exact path="/" component={Homepage} />
       <Route exact path="/public-works" component={PublicWorksLandingPage} />
+      <Route exact path="/images" component={ImageExamples} />
     </Router>
   );
 }
