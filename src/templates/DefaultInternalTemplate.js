@@ -9,14 +9,15 @@ const DefaultInternalTemplate = props => {
     MainContent,
     SideBar,
     mainContentTitle,
-    sideBarTitle
+    sideBarTitle,
+    pageTitle
   } = props;
   return (
     <div className="dg_internal-template">
       <SiteHeader />
       <PageHeader
         Breadcrumbs={Breadcrumbs}
-        title="Public Works"
+        title={pageTitle}
         preTitle="Department of"
         deck="The Department of Public Works oversees and maintains the County’s public infrastructure, including highways, utilities, and trash and recycling."
         className="blue"
