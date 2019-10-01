@@ -4,16 +4,28 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
 const DefaultInternalTemplate = props => {
-  const { MainContent, SideBar, mainContentTitle, sideBarTitle } = props;
+  const {
+    Breadcrumbs,
+    MainContent,
+    SideBar,
+    mainContentTitle,
+    sideBarTitle,
+    pageTitle,
+    pagePreTitle,
+    deck,
+    theme,
+    backgroundImage
+  } = props;
   return (
     <div className="dg_internal-template">
       <SiteHeader />
       <PageHeader
-        title="Public Works"
-        preTitle="Department of"
-        deck="The Department of Public Works oversees and maintains the County’s public infrastructure, including highways, utilities, and trash and recycling."
-        className="blue"
-        backGroundImage="//baltimorecountymd.gov/sebin/j/x/public-works-header.jpg"
+        Breadcrumbs={Breadcrumbs}
+        title={pageTitle}
+        preTitle={pagePreTitle}
+        deck={deck}
+        className={theme}
+        backGroundImage={backgroundImage}
       />
       <div className="container">
         <div className="row">
