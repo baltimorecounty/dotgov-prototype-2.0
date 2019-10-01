@@ -1,7 +1,12 @@
 import React from "react";
 import ServicesGroup from "../components/ServicesGroup";
 import DefaultInternalTemplate from "../templates/DefaultInternalTemplate";
-import { SummaryList } from "@baltimorecounty/dotgov-components";
+import {
+  Breadcrumbs,
+  BreadcrumbItem,
+  BreadcrumbLinkItem,
+  SummaryList
+} from "@baltimorecounty/dotgov-components";
 
 const services = [
   {
@@ -96,9 +101,29 @@ const mainContent = () => (
 
 const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
 
+const breadCrumbs = () => (
+  <Breadcrumbs>
+    <BreadcrumbLinkItem
+      text="Departments"
+      title="This is a title"
+      link="/departments"
+    />
+    <BreadcrumbLinkItem
+      text="Department of Health"
+      title="This is a title"
+      link="/departments/health"
+    />
+    <BreadcrumbItem text="Adoptable Pets" />
+  </Breadcrumbs>
+);
+
 const InternalPage = props => {
   return (
-    <DefaultInternalTemplate MainContent={mainContent} SideBar={sideBar} />
+    <DefaultInternalTemplate
+      Breadcrumbs={breadCrumbs}
+      MainContent={mainContent}
+      SideBar={sideBar}
+    />
   );
 };
 
