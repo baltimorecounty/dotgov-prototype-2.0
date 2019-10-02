@@ -40,7 +40,7 @@ const services = [
   },
   {
     id: 6,
-    name: "Trash Recycling",
+    name: "Trash / Recycling",
     href: "/trash",
     icon: "fas fa-dumpster",
     description: "View more information about trash and recycling."
