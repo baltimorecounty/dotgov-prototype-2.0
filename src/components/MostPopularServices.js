@@ -40,7 +40,7 @@ const services = [
   },
   {
     id: 6,
-    name: "Trash Recycling",
+    name: "Trash / Recycling",
     href: "/trash",
     icon: "fas fa-dumpster",
     description: "View more information about trash and recycling."
@@ -77,14 +77,12 @@ const services = [
 
 const MostPopularServices = () => (
   <React.Fragment>
-    <div className="dg_section dark">
-      <IconHeading
-        text="Most Popular Services"
-        image="//baltimorecountymd.gov/sebin/p/u/county-seal.svg"
-      />
+    <IconHeading
+      text="Most Popular Services"
+      image="//baltimorecountymd.gov/sebin/p/u/county-seal.svg"
+    />
 
-      <ServicesGroup services={services} />
-    </div>
+    <ServicesGroup services={services} />
   </React.Fragment>
 );
 
