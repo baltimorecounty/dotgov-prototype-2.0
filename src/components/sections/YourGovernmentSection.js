@@ -1,11 +1,12 @@
 import React from "react";
 import {
   IconHeading,
-  EmphasizedImage
+  EmphasizedImage,
+  Section
 } from "@baltimorecounty/dotgov-components";
 
 const YourGovernmentSection = props => (
-  <div className="dg_section">
+  <Section>
     <div className="container">
       <div className="row">
         <div className="col">
@@ -31,7 +32,7 @@ const YourGovernmentSection = props => (
         </div>
       </div>
     </div>
-  </div>
+  </Section>
 );
 
 export default YourGovernmentSection;

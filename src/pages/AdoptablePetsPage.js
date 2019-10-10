@@ -120,11 +120,7 @@ const breadCrumbs = () => (
 const InternalPage = props => {
   return (
     <DefaultInternalTemplate
-      pagePreTitle="Department of"
-      pageTitle="Public Works"
-      deck="The Department of Public Works oversees and maintains the County’s public infrastructure, including highways, utilities, and trash and recycling."
-      theme="blue"
-      backgroundImage="//baltimorecountymd.gov/sebin/j/x/public-works-header.jpg"
+      pageTitle="Adoptable pets"
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
       SideBar={sideBar}
