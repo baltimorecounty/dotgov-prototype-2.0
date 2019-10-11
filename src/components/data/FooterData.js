@@ -33,8 +33,8 @@ const PoliciesItems = [
     link: "#"
   },
   {
-    linkText: "Reasonable Accomodation",
-    title: "Reasonable Accomodation",
+    linkText: "Reasonable Accommodation",
+    title: "Reasonable Accommodation",
     link: "#"
   }
 ];
