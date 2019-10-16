@@ -6,7 +6,7 @@ import Homepage from "./pages/HomePage";
 import { HashRouter as Router, Route } from "react-router-dom";
 import PublicWorksLandingPage from "./pages/PublicWorksLandingPage";
 import AdoptablePetsPage from "./pages/AdoptablePetsPage";
-import Images from "./pages/ImagesPage";
+import ImagesPage from "./pages/ImagesPage";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Route exact path="/" component={Homepage} />
       <Route exact path="/public-works" component={PublicWorksLandingPage} />
       <Route exact path="/adoptable-pets" component={AdoptablePetsPage} />
-      <Route exact path="/images" component={Images} />
+      <Route exact path="/images" component={ImagesPage} />
     </Router>
   );
 }
