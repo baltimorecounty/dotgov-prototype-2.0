@@ -1,5 +1,4 @@
 import React from "react";
-import ServicesGroup from "../components/ServicesGroup";
 import DefaultInternalTemplate from "../templates/DefaultInternalTemplate";
 import {
   Breadcrumbs,
