@@ -48,7 +48,6 @@ const BaltcoGoSection = () => (
       <ul className="dg_alt-list inline">
         <li>
           <a
-            title="Test"
             href="https://itunes.apple.com/us/app/baltcogo/id1200046300"
           >
             <i className="fab fa-apple dg_lg_gray" aria-hidden="true"></i> App
@@ -57,7 +56,6 @@ const BaltcoGoSection = () => (
         </li>
         <li>
           <a
-            title="Test"
             href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en"
           >
             <i className="fab fa-google-play dg_lg_gray" aria-hidden="true"></i>
@@ -87,7 +85,6 @@ const SiteFooter = props => {
                     {FindInformationItems.map(item => (
                       <AlternateListItem
                         key={item.title}
-                        title={item.title}
                         link={item.link}
                         linkText={item.linkText}
                       />
@@ -100,7 +97,6 @@ const SiteFooter = props => {
                     {PoliciesItems.map(item => (
                       <AlternateListItem
                         key={item.title}
-                        title={item.title}
                         link={item.link}
                         linkText={item.linkText}
                       />
@@ -144,7 +140,6 @@ const SiteFooter = props => {
                     {TranslateItems.map(item => (
                       <AlternateListItem
                         key={item.title}
-                        title={item.title}
                         link={item.link}
                         linkText={item.linkText}
                       />
