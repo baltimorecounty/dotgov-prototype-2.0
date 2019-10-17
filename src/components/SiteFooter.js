@@ -39,7 +39,7 @@ const BaltcoGoSection = () => (
     <div className="dg_footer-section">
       <img
         className="img-fluid"
-        src="http://staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
+        src="//staging.baltimorecountymd.gov/sebin/t/o/homepage-baltcogo-logo-dark.png"
         alt="BaltCoGo Logo"
       />
     </div>
@@ -47,17 +47,13 @@ const BaltcoGoSection = () => (
       <p className="dg_download-blurb">Download now on:</p>
       <ul className="dg_alt-list inline">
         <li>
-          <a
-            href="https://itunes.apple.com/us/app/baltcogo/id1200046300"
-          >
+          <a href="https://itunes.apple.com/us/app/baltcogo/id1200046300">
             <i className="fab fa-apple dg_lg_gray" aria-hidden="true"></i> App
             Store
           </a>
         </li>
         <li>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en"
-          >
+          <a href="https://play.google.com/store/apps/details?id=com.citysourced.baltimorecountymd&hl=en">
             <i className="fab fa-google-play dg_lg_gray" aria-hidden="true"></i>
             Google Play
           </a>
