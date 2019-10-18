@@ -8,6 +8,7 @@ import PublicWorksLandingPage from "./pages/PublicWorksLandingPage";
 import AdoptablePetsPage from "./pages/AdoptablePetsPage";
 import ImagesPage from "./pages/ImagesPage";
 import AccordionsPage from "./pages/AccordionsPage";
+import CardPage from "./pages/CardPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/adoptable-pets" component={AdoptablePetsPage} />
       <Route exact path="/images" component={ImagesPage} />
       <Route exact path="/accordions" component={AccordionsPage} />
+      <Route exact path="/card-page" component={CardPage} />
     </Router>
   );
 }
