@@ -115,59 +115,37 @@ const SampleStepListItems = () => (
   </React.Fragment>
 );
 
+const StepListSection = props => {
+  const { type, theme, heading } = props;
+  return (
+    <Section className={theme}>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>{heading}</h2>
+            <StepList type={type}>
+              <SampleStepListItems />
+            </StepList>
+          </div>
+        </div>
+      </div>
+    </Section>
+  );
+};
+
 const mainContent = () => (
   <React.Fragment>
     <Section>
       <ServicesGroup title="Most Popular in Public Works" services={services} />
     </Section>
-    <Section>
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h2>Default Step List</h2>
-            <StepList type="collapsed">
-              <SampleStepListItems />
-            </StepList>
-          </div>
-        </div>
-      </div>
-    </Section>
-    <Section className="dark">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h2>Default Step List</h2>
-            <StepList type="collapsed">
-              <SampleStepListItems />
-            </StepList>
-          </div>
-        </div>
-      </div>
-    </Section>
-    <Section>
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h2>Static Step List</h2>
-            <StepList type="static">
-              <SampleStepListItems />
-            </StepList>
-          </div>
-        </div>
-      </div>
-    </Section>
-    <Section className="dark">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h2>Static Step List</h2>
-            <StepList type="static">
-              <SampleStepListItems />
-            </StepList>
-          </div>
-        </div>
-      </div>
-    </Section>
+    <StepListSection type="collapsed" heading="Default Step List" />
+    <StepListSection
+      type="collapsed"
+      theme="dark"
+      heading="Default Step List"
+    />
+    <StepListSection type="static" heading="Static Step List" />
+    <StepListSection type="static" theme="dark" heading="Static Step List" />
   </React.Fragment>
 );
 
