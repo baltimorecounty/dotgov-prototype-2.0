@@ -5,6 +5,9 @@ import {
   Breadcrumbs,
   BreadcrumbItem,
   BreadcrumbLinkItem,
+  Section,
+  StepList,
+  StepListItem,
   SummaryList
 } from "@baltimorecounty/dotgov-components";
 
@@ -95,8 +98,77 @@ const publicWorksSummaryItems = [
   }
 ];
 
+const SampleStepListItems = () => (
+  <React.Fragment>
+    <StepListItem id="step-1" buttonText="Step 1: Know the Registration Fees">
+      <p>Some really helpful content for step 1 will go here.</p>
+    </StepListItem>
+    <StepListItem id="step-2" buttonText="Step 2: Have Your Property Inspected">
+      <p>Some really helpful content for step 2 will go here.</p>
+    </StepListItem>
+    <StepListItem
+      id="step-3"
+      buttonText="Step 3: Gather Required Documentation"
+    >
+      <p>Some really helpful content for step 3 will go here.</p>
+    </StepListItem>
+  </React.Fragment>
+);
+
 const mainContent = () => (
-  <ServicesGroup title="Most Popular in Public Works" services={services} />
+  <React.Fragment>
+    <Section>
+      <ServicesGroup title="Most Popular in Public Works" services={services} />
+    </Section>
+    <Section>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>Default Step List</h2>
+            <StepList type="collapsed">
+              <SampleStepListItems />
+            </StepList>
+          </div>
+        </div>
+      </div>
+    </Section>
+    <Section className="dark">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>Default Step List</h2>
+            <StepList type="collapsed">
+              <SampleStepListItems />
+            </StepList>
+          </div>
+        </div>
+      </div>
+    </Section>
+    <Section>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>Static Step List</h2>
+            <StepList type="static">
+              <SampleStepListItems />
+            </StepList>
+          </div>
+        </div>
+      </div>
+    </Section>
+    <Section className="dark">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>Static Step List</h2>
+            <StepList type="static">
+              <SampleStepListItems />
+            </StepList>
+          </div>
+        </div>
+      </div>
+    </Section>
+  </React.Fragment>
 );
 
 const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
