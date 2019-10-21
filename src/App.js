@@ -18,7 +18,7 @@ function App() {
       <Route exact path="/adoptable-pets" component={AdoptablePetsPage} />
       <Route exact path="/images" component={ImagesPage} />
       <Route exact path="/accordions" component={AccordionsPage} />
-      <Route exact path="/card-page" component={CardPage} />
+      <Route exact path="/cards" component={CardPage} />
     </Router>
   );
 }
