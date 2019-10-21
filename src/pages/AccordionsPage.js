@@ -56,7 +56,7 @@ const collapseItems = [
     id: 1,
     header: "Accordion Item #1",
     subheader: "This is a subheader",
-    content: <h2>Test Heading Level 2</h2>
+    content: <h3>Test Heading Level 2</h3>
   },
   {
     id: 2,
@@ -91,13 +91,8 @@ const collapseItems = [
     subheader: "",
     content: (
       <img
-        width="300"
-        height="200"
         alt="Stuff goes here"
         src="//baltimorecountymd.gov/sebin/t/t/homepage-county-executive.jpg"
-        border="0"
-        vspace="0"
-        hspace="0"
       />
     )
   },
