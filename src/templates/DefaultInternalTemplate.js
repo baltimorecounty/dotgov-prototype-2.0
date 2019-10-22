@@ -19,7 +19,7 @@ const DefaultInternalTemplate = props => {
   return (
     <div className="dg_internal-template">
       <SiteHeader />
-      <Alert className="emergency">
+      <Alert type="emergency">
         <p>
           The water cooler outside of the Budget and Finance Office has been
           moved to the Historic Courthouse Mezzanine. For more information
