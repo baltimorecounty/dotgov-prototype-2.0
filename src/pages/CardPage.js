@@ -137,6 +137,23 @@ const SampleCard3 = () => (
 const mainContent = () => (
   <React.Fragment>
     <h2>Four Cards - Image, Text and Button</h2>
+    <p>
+      Bacon ipsum dolor amet leberkas meatball cow ribeye boudin porchetta
+      landjaeger pork chop strip steak ball tip alcatra. Corned beef leberkas
+      porchetta biltong, landjaeger bresaola shankle shank tail strip steak.
+      Kielbasa beef tongue burgdoggen doner jowl. Jowl tri-tip flank biltong,
+      ball tip burgdoggen pancetta meatball bacon turducken ham ground round
+      capicola pastrami. Filet mignon beef ground round capicola alcatra jowl.
+      Andouille meatloaf porchetta kielbasa chicken jowl.
+    </p>
+    <p>
+      Kevin turkey shoulder meatball sirloin beef ribs, frankfurter chicken
+      spare ribs turducken landjaeger ribeye brisket bresaola. Turducken
+      leberkas landjaeger alcatra flank. Prosciutto jerky kevin meatball
+      bresaola pancetta boudin ground round sirloin picanha flank pork belly.
+      T-bone cupim pork loin bacon landjaeger beef ribs frankfurter ham shank
+      hamburger.
+    </p>
     <div className="row">
       <div className="d-flex col-md-4">
         <SampleCard1 />
