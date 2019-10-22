@@ -56,28 +56,28 @@ const mainContent = () => (
     <Alert className="status" type="success" icon="far fa-check">
       <p>
         You submitted your report as and it was a great success. View your{" "}
-        <a href="#">report status</a>.
+        <a href="#test">report status</a>.
       </p>
     </Alert>
     <h3>Information</h3>
     <Alert className="status" type="information" icon="far fa-check">
       <p>
         You submitted your report as and it was a great success. View your{" "}
-        <a href="#">report status</a>.
+        <a href="#test">report status</a>.
       </p>
     </Alert>
     <h3>Warning</h3>
     <Alert className="status" type="warning" icon="far fa-check">
       <p>
         You submitted your report as and it was a great success. View your{" "}
-        <a href="#">report status</a>.
+        <a href="#test">report status</a>.
       </p>
     </Alert>
     <h3>Error</h3>
     <Alert className="status" type="error" icon="far fa-check">
       <p>
         You submitted your report as and it was a great success. View your{" "}
-        <a href="#">report status</a>.
+        <a href="#test">report status</a>.
       </p>
     </Alert>
   </React.Fragment>
