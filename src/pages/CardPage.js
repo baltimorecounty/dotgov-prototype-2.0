@@ -135,7 +135,7 @@ const SampleCard3 = () => (
 );
 
 const mainContent = () => (
-  <Section>
+  <React.Fragment>
     <h2>Four Cards - Image, Text and Button</h2>
     <div className="row">
       <div className="d-flex col-md-4">
@@ -212,7 +212,7 @@ const mainContent = () => (
         </div>
       </div>
     </Section>
-  </Section>
+  </React.Fragment>
 );
 
 const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
