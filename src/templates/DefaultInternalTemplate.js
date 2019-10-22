@@ -31,7 +31,7 @@ const DefaultInternalTemplate = props => {
         <div className="row">
           <div className="col-md-8 col-sm-12">
             <div id="dg_main-content">
-              <h2>{mainContentTitle}</h2>
+              {mainContentTitle && <h2>{mainContentTitle}</h2>}
               <MainContent />
             </div>
           </div>
