@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHeader } from "@baltimorecounty/dotgov-components";
+import { Alert, PageHeader } from "@baltimorecounty/dotgov-components";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
@@ -19,6 +19,13 @@ const DefaultInternalTemplate = props => {
   return (
     <div className="dg_internal-template">
       <SiteHeader />
+      <Alert className="emergency">
+        <p>
+          The water cooler outside of the Budget and Finance Office has been
+          moved to the Historic Courthouse Mezzanine. For more information
+          please visit our <a href="/closings">Closings Page</a>
+        </p>
+      </Alert>
       <PageHeader
         Breadcrumbs={Breadcrumbs}
         title={pageTitle}
