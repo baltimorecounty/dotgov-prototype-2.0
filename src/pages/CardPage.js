@@ -75,7 +75,7 @@ const SampleCard1 = () => (
       </p>
     </CardContent>
     <CardFooter>
-      <button type="button" class="dg_button">
+      <button type="button" className="dg_button">
         Learn More
       </button>
     </CardFooter>
@@ -97,7 +97,7 @@ const SampleCard2 = () => (
       </p>
     </CardContent>
     <CardFooter>
-      <button type="button" class="dg_button">
+      <button type="button" className="dg_button">
         Learn More
       </button>
     </CardFooter>
@@ -127,7 +127,7 @@ const SampleCard3 = () => (
       </p>
     </CardContent>
     <CardFooter className="text-left">
-      <button type="button" class="dg_button">
+      <button type="button" className="dg_button">
         Learn More
       </button>
     </CardFooter>
