@@ -173,19 +173,19 @@ const mainContent = () => (
     </div>
     <h2>Five Cards - Various Layouts</h2>
     <div className="row">
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard2 />
       </div>
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard1 />
       </div>
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard3 />
       </div>
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard3 />
       </div>
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard3 />
       </div>
     </div>
@@ -193,37 +193,37 @@ const mainContent = () => (
       <div className="container">
         <h2>Four Cards - Image, Text and Button</h2>
         <div className="row">
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard1 />
           </div>
 
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard1 />
           </div>
 
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard1 />
           </div>
 
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard2 />
           </div>
         </div>
         <h2>Five Cards - Various Layouts</h2>
         <div className="row">
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard2 />
           </div>
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard1 />
           </div>
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard3 />
           </div>
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard3 />
           </div>
-          <div className="d-flex col-lg-4 col-md-6">
+          <div className="d-flex col-lg-4 col-md-6 col-sm-6">
             <SampleCard3 />
           </div>
         </div>
