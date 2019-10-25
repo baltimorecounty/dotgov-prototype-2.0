@@ -5,6 +5,9 @@ import {
   Breadcrumbs,
   BreadcrumbItem,
   BreadcrumbLinkItem,
+  Section,
+  StepList,
+  StepListItem,
   SummaryList
 } from "@baltimorecounty/dotgov-components";
 
@@ -95,22 +98,64 @@ const publicWorksSummaryItems = [
   }
 ];
 
+const SampleStepListItems = () => (
+  <React.Fragment>
+    <StepListItem id="step-1" buttonText="Step 1: Know the Registration Fees">
+      <p>Some really helpful content for step 1 will go here.</p>
+    </StepListItem>
+    <StepListItem id="step-2" buttonText="Step 2: Have Your Property Inspected">
+      <p>Some really helpful content for step 2 will go here.</p>
+    </StepListItem>
+    <StepListItem
+      id="step-3"
+      buttonText="Step 3: Gather Required Documentation"
+    >
+      <p>Some really helpful content for step 3 will go here.</p>
+    </StepListItem>
+  </React.Fragment>
+);
+
+const StepListSection = props => {
+  const { type, theme, heading } = props;
+  return (
+    <Section className={theme}>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>{heading}</h2>
+            <StepList type={type}>
+              <SampleStepListItems />
+            </StepList>
+          </div>
+        </div>
+      </div>
+    </Section>
+  );
+};
+
 const mainContent = () => (
-  <ServicesGroup title="Most Popular in Public Works" services={services} />
+  <React.Fragment>
+    <Section>
+      <ServicesGroup title="Most Popular in Public Works" services={services} />
+    </Section>
+    <StepListSection type="collapsed" heading="Default Step List" />
+    <StepListSection
+      type="collapsed"
+      theme="dark"
+      heading="Default Step List"
+    />
+    <StepListSection type="static" heading="Static Step List" />
+    <StepListSection type="static" theme="dark" heading="Static Step List" />
+  </React.Fragment>
 );
 
 const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
-    <BreadcrumbLinkItem
-      text="Departments"
-      title="This is a title"
-      link="/departments"
-    />
+    <BreadcrumbLinkItem text="Departments" link="/departments" />
     <BreadcrumbLinkItem
       text="Department of Health"
-      title="This is a title"
       link="/departments/health"
     />
     <BreadcrumbItem text="Adoptable Pets" />
