@@ -155,19 +155,19 @@ const mainContent = () => (
       hamburger.
     </p>
     <div className="row">
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard1 />
       </div>
 
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard1 />
       </div>
 
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard1 />
       </div>
 
-      <div className="d-flex col-lg-4 col-md-6">
+      <div className="d-flex col-lg-4 col-md-6 col-sm-6">
         <SampleCard2 />
       </div>
     </div>
