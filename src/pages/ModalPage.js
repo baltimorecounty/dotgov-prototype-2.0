@@ -5,7 +5,7 @@ import {
   BreadcrumbItem,
   BreadcrumbLinkItem,
   IconHeading,
-  IconLink,
+  IconButton,
   Section,
   SummaryList
 } from "@baltimorecounty/dotgov-components";
@@ -54,7 +54,7 @@ const sideBarContent = [
 
 const DemoModal = props => {
   const {
-    isDismissible = true,
+    isDismissible,
     id,
     title = "My Modal",
     buttonText = "Open Modal"
@@ -77,11 +77,9 @@ const DemoModal = props => {
         aria-modal="true"
       >
         <div className="text-right">
-          <IconLink
+          <IconButton
             size="tiny"
-            href="/"
-            id="my-accessible-dialog-close"
-            type="circle"
+            shape="circle"
             icon="far fa-times"
             description="Close this modal window."
             className="dg_modal__close-button"
