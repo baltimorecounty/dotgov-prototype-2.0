@@ -60,8 +60,6 @@ const DemoModal = props => {
     buttonText = "Open Modal"
   } = props;
 
-  console.log(isDismissible);
-
   return (
     <React.Fragment>
       <button
