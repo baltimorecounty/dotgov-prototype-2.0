@@ -1,5 +1,9 @@
 import React from "react";
-import { Alert, PageHeader } from "@baltimorecounty/dotgov-components";
+import {
+  Alert,
+  PageHeader,
+  SideBarSection
+} from "@baltimorecounty/dotgov-components";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
@@ -7,9 +11,8 @@ const DefaultInternalTemplate = props => {
   const {
     Breadcrumbs,
     MainContent,
-    SideBar,
+    SideBarContent,
     mainContentTitle,
-    sideBarTitle,
     pageTitle,
     pagePreTitle,
     deck,
@@ -43,10 +46,9 @@ const DefaultInternalTemplate = props => {
             </div>
           </div>
           <div className="col-md-4 col-sm-12">
-            <div className="dg_sidebar sidebar">
-              <h2>{sideBarTitle || "Contact Us"}</h2>
-              <SideBar />
-            </div>
+            <SideBarSection sideBarTitle="Contact Us">
+              {SideBarContent}
+            </SideBarSection>
           </div>
         </div>
       </div>

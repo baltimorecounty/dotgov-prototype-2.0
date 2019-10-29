@@ -149,7 +149,7 @@ const mainContent = () => (
   </React.Fragment>
 );
 
-const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
+const sideBar = <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
@@ -172,7 +172,7 @@ const InternalPage = props => {
       backgroundImage="//baltimorecountymd.gov/sebin/j/x/public-works-header.jpg"
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
-      SideBar={sideBar}
+      SideBarContent={sideBar}
     />
   );
 };
