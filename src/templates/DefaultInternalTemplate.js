@@ -46,9 +46,7 @@ const DefaultInternalTemplate = props => {
             </div>
           </div>
           <div className="col-md-4 col-sm-12">
-            <SideBarSection sideBarTitle="Contact Us">
-              {SideBarContent}
-            </SideBarSection>
+            <SideBarSection title="Contact Us">{SideBarContent}</SideBarSection>
           </div>
         </div>
       </div>
