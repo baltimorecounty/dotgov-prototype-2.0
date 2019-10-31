@@ -10,6 +10,7 @@ import AdoptablePetsPage from "./pages/AdoptablePetsPage";
 import ImagesPage from "./pages/ImagesPage";
 import AccordionsPage from "./pages/AccordionsPage";
 import CardPage from "./pages/CardPage";
+import ModalPage from "./pages/ModalPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/accordions" component={AccordionsPage} />
       <Route exact path="/alerts" component={AlertsPage} />
       <Route exact path="/cards" component={CardPage} />
+      <Route exact path="/modals" component={ModalPage} />
     </Router>
   );
 }
