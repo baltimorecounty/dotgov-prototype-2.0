@@ -232,7 +232,7 @@ const mainContent = () => (
   </React.Fragment>
 );
 
-const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
+const sideBar = <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
@@ -248,7 +248,7 @@ const InternalPage = props => {
       pageTitle="Cards"
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
-      SideBar={sideBar}
+      SideBarContent={sideBar}
     />
   );
 };

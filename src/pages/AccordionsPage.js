@@ -162,7 +162,7 @@ const mainContent = () => (
   </div>
 );
 
-const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
+const sideBar = <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
@@ -181,7 +181,7 @@ const InternalPage = props => {
       pageTitle="Accordions"
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
-      SideBar={sideBar}
+      SideBarContent={sideBar}
     />
   );
 };

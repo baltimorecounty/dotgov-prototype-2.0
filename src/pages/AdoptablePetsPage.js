@@ -99,7 +99,7 @@ const mainContent = () => (
   <ServicesGroup title="Most Popular in Public Works" services={services} />
 );
 
-const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
+const sideBar = <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
@@ -118,7 +118,7 @@ const InternalPage = props => {
       pageTitle="Adoptable pets"
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
-      SideBar={sideBar}
+      SideBarContent={sideBar}
     />
   );
 };
