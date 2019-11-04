@@ -52,20 +52,25 @@ const publicWorksSummaryItems = [
     content: "<p>Steve Walsh, P.E.</p>"
   }
 ];
+
+const ImagePlaceholder = ({ height = "150px", width = "100%" }) => (
+  <svg
+    width={width}
+    height={height}
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid slice"
+    focusable="false"
+    role="img"
+    aria-label="Placeholder: Thumbnail"
+  >
+    <rect width={width} height={height} fill="#C2C2C2"></rect>
+  </svg>
+);
+
 const SampleCard1 = () => (
   <Card>
     <CardContent>
-      <svg
-        width="100%"
-        height="150px"
-        xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-        role="img"
-        aria-label="Placeholder: Thumbnail"
-      >
-        <rect width="100%" height="200px" fill="#C2C2C2"></rect>
-      </svg>
+      <ImagePlaceholder />
       <h3>Centered With Image</h3>
       <p>.8 acres</p>
       <p>
@@ -107,17 +112,7 @@ const SampleCard2 = () => (
 const SampleCard3 = () => (
   <Card>
     <CardContent className="text-left">
-      <svg
-        width="100%"
-        height="150px"
-        xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-        role="img"
-        aria-label="Placeholder: Thumbnail"
-      >
-        <rect width="100%" height="200px" fill="#C2C2C2"></rect>
-      </svg>
+      <ImagePlaceholder />
       <h3>Align Left With Image</h3>
       <p>.8 acres</p>
       <p>
