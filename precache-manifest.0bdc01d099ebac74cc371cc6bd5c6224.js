@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc20e857eefc5f9a5a853bb0a44c1dfe",
+    "revision": "cb368e48dbd9a0c1e5a5c29bac71295a",
     "url": "/dotgov-prototype-2.0/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dotgov-prototype-2.0/static/css/2.7175dcd9.chunk.css"
   },
   {
-    "revision": "7cee8e5e44f6d1d842ee",
+    "revision": "1177911f6899451b231c",
     "url": "/dotgov-prototype-2.0/static/css/main.633fd7ef.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dotgov-prototype-2.0/static/js/2.63da1ce3.chunk.js"
   },
   {
-    "revision": "7cee8e5e44f6d1d842ee",
-    "url": "/dotgov-prototype-2.0/static/js/main.74fac7ef.chunk.js"
+    "revision": "1177911f6899451b231c",
+    "url": "/dotgov-prototype-2.0/static/js/main.7898593d.chunk.js"
   },
   {
     "revision": "4510b8896649743ad0a2",
