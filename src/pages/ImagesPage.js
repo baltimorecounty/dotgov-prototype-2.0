@@ -80,7 +80,7 @@ const mainContent = () => (
   </div>
 );
 
-const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
+const sideBar = <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
@@ -99,7 +99,7 @@ const InternalPage = props => {
       pageTitle="Images"
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
-      SideBar={sideBar}
+      SideBarContent={sideBar}
     />
   );
 };

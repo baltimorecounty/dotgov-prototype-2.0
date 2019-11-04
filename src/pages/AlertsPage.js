@@ -82,7 +82,7 @@ const mainContent = () => (
     </Alert>
   </React.Fragment>
 );
-const sideBar = () => <SummaryList items={publicWorksSummaryItems} />;
+const sideBar = <SummaryList items={publicWorksSummaryItems} />;
 
 const breadCrumbs = () => (
   <Breadcrumbs>
@@ -99,7 +99,7 @@ const InternalPage = props => {
       Breadcrumbs={breadCrumbs}
       MainContent={mainContent}
       mainContentTitle="Status Alerts"
-      SideBar={sideBar}
+      SideBarContent={sideBar}
     />
   );
 };
