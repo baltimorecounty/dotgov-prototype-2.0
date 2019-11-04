@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76956d4f3ac91d1faa562270b5fd2ecc",
+    "revision": "0bf8175f6d25ce37d214d58521d2a233",
     "url": "/dotgov-prototype-2.0/index.html"
   },
   {
-    "revision": "dd43ebd1ee6310a68c00",
-    "url": "/dotgov-prototype-2.0/static/css/main.7a8576c5.chunk.css"
+    "revision": "8152080412222a534c46",
+    "url": "/dotgov-prototype-2.0/static/css/main.afb97a6f.chunk.css"
   },
   {
     "revision": "04a289a18e4d60f51275",
     "url": "/dotgov-prototype-2.0/static/js/2.88139a00.chunk.js"
   },
   {
-    "revision": "dd43ebd1ee6310a68c00",
+    "revision": "8152080412222a534c46",
     "url": "/dotgov-prototype-2.0/static/js/main.9ce1fc8d.chunk.js"
   },
   {

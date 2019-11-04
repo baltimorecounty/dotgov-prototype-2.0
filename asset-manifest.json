@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dotgov-prototype-2.0/static/css/main.7a8576c5.chunk.css",
+    "main.css": "/dotgov-prototype-2.0/static/css/main.afb97a6f.chunk.css",
     "main.js": "/dotgov-prototype-2.0/static/js/main.9ce1fc8d.chunk.js",
     "main.js.map": "/dotgov-prototype-2.0/static/js/main.9ce1fc8d.chunk.js.map",
     "runtime~main.js": "/dotgov-prototype-2.0/static/js/runtime~main.7057d25c.js",
@@ -8,8 +8,8 @@
     "static/js/2.88139a00.chunk.js": "/dotgov-prototype-2.0/static/js/2.88139a00.chunk.js",
     "static/js/2.88139a00.chunk.js.map": "/dotgov-prototype-2.0/static/js/2.88139a00.chunk.js.map",
     "index.html": "/dotgov-prototype-2.0/index.html",
-    "precache-manifest.0b68db8924860898b875bdbcdf37f671.js": "/dotgov-prototype-2.0/precache-manifest.0b68db8924860898b875bdbcdf37f671.js",
+    "precache-manifest.2a23eef1ab27ea8cfa302fd3f2ea2377.js": "/dotgov-prototype-2.0/precache-manifest.2a23eef1ab27ea8cfa302fd3f2ea2377.js",
     "service-worker.js": "/dotgov-prototype-2.0/service-worker.js",
-    "static/css/main.7a8576c5.chunk.css.map": "/dotgov-prototype-2.0/static/css/main.7a8576c5.chunk.css.map"
+    "static/css/main.afb97a6f.chunk.css.map": "/dotgov-prototype-2.0/static/css/main.afb97a6f.chunk.css.map"
   }
 }
