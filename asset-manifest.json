@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/dotgov-prototype-2.0/static/css/main.633fd7ef.chunk.css",
-    "main.js": "/dotgov-prototype-2.0/static/js/main.7898593d.chunk.js",
-    "main.js.map": "/dotgov-prototype-2.0/static/js/main.7898593d.chunk.js.map",
+    "main.css": "/dotgov-prototype-2.0/static/css/main.d55cfd46.chunk.css",
+    "main.js": "/dotgov-prototype-2.0/static/js/main.93ae7704.chunk.js",
+    "main.js.map": "/dotgov-prototype-2.0/static/js/main.93ae7704.chunk.js.map",
     "runtime~main.js": "/dotgov-prototype-2.0/static/js/runtime~main.7057d25c.js",
     "runtime~main.js.map": "/dotgov-prototype-2.0/static/js/runtime~main.7057d25c.js.map",
-    "static/css/2.7175dcd9.chunk.css": "/dotgov-prototype-2.0/static/css/2.7175dcd9.chunk.css",
-    "static/js/2.63da1ce3.chunk.js": "/dotgov-prototype-2.0/static/js/2.63da1ce3.chunk.js",
-    "static/js/2.63da1ce3.chunk.js.map": "/dotgov-prototype-2.0/static/js/2.63da1ce3.chunk.js.map",
+    "static/js/2.88139a00.chunk.js": "/dotgov-prototype-2.0/static/js/2.88139a00.chunk.js",
+    "static/js/2.88139a00.chunk.js.map": "/dotgov-prototype-2.0/static/js/2.88139a00.chunk.js.map",
     "index.html": "/dotgov-prototype-2.0/index.html",
-    "precache-manifest.0bdc01d099ebac74cc371cc6bd5c6224.js": "/dotgov-prototype-2.0/precache-manifest.0bdc01d099ebac74cc371cc6bd5c6224.js",
+    "precache-manifest.16094d364c238ec7abc5990fb949ca82.js": "/dotgov-prototype-2.0/precache-manifest.16094d364c238ec7abc5990fb949ca82.js",
     "service-worker.js": "/dotgov-prototype-2.0/service-worker.js",
-    "static/css/2.7175dcd9.chunk.css.map": "/dotgov-prototype-2.0/static/css/2.7175dcd9.chunk.css.map",
-    "static/css/main.633fd7ef.chunk.css.map": "/dotgov-prototype-2.0/static/css/main.633fd7ef.chunk.css.map"
+    "static/css/main.d55cfd46.chunk.css.map": "/dotgov-prototype-2.0/static/css/main.d55cfd46.chunk.css.map"
   }
 }
