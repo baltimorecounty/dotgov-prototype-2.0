@@ -64,8 +64,8 @@ const mainContent = () => (
     <Section>
       <h3>Default Modal</h3>
       <p>Modal can close by button or clicking outside of the modal.</p>
-      <DemoModal id="default-modal" isDismissible="true" />
     </Section>
+    <DemoModal id="default-modal" isDismissible="true" />
     <Section>
       <h3>Modal must use a button to close.</h3>
       <p>
@@ -73,8 +73,8 @@ const mainContent = () => (
         modal. A good case for this usage is a form that you don't want the user
         to lose data.
       </p>
-      <DemoModal id="default-modal-not-dismissible" isDismissible="false" />
     </Section>
+    <DemoModal id="default-modal-not-dismissible" isDismissible="false" />
   </React.Fragment>
 );
 
