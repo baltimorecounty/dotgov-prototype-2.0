@@ -11,6 +11,7 @@ import ImagesPage from "./pages/ImagesPage";
 import AccordionsPage from "./pages/AccordionsPage";
 import CardPage from "./pages/CardPage";
 import CardPage2 from "./pages/CardPage2";
+import CardPage3 from "./pages/CardPage3";
 import ModalPage from "./pages/ModalPage";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/alerts" component={AlertsPage} />
       <Route exact path="/cards" component={CardPage} />
       <Route exact path="/cards2" component={CardPage2} />
+      <Route exact path="/cards3" component={CardPage3} />
       <Route exact path="/modals" component={ModalPage} />
     </Router>
   );

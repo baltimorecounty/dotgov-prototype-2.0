@@ -1,4 +1,5 @@
 import React from "react";
+import List from "./List";
 import DefaultInternalTemplate from "../templates/DefaultInternalTemplate";
 import {
   Breadcrumbs,
@@ -16,23 +17,20 @@ const servicesItems = [
     name: "Adopt a pet",
     url: "https://www.google.com/maps",
     department: "Animal Services",
-    icon: "fas fa-camera",
-    rank:1,
+    icon: "fas fa-star"
   },
 
   {
     name: "Find a lost pet",
     url: "https://www.google.com/maps",
     department: "Animal Services",
-    icon: "far fa-clock",
-    rank:1,
+    icon: "far fa-clock"
   },
   {
     name: "Apply for a job with baltimore county",
     url: "https://www.google.com/maps",
     department: "Office of Human Resources",
-    icon: "far fa-envelope",
-    rank:1,
+    icon: "far fa-envelope"
   },
   {
     name: "Pay property taxes",
@@ -44,22 +42,19 @@ const servicesItems = [
     name: "find a county park",
     url: "https://www.google.com/maps",
     department: "Department of Recreation and Parks",
-    icon: "fas fa-exclamation-circle",
-    rank:1,
+    icon: "fas fa-exclamation-circle"
   },
   {
     name: "pay parking, speed camera or red light tickets",
     url: "https://www.google.com/maps",
     department: "Office of Budget and Finance",
-    icon: "fas fa-user",
-    rank:1,
+    icon: "fas fa-user"
   },
   {
     name: "county news",
     url: "https://www.google.com/maps",
     department: "Office of Communications",
-    icon: "fas fa-user",
-    rank:1,
+    icon: "fas fa-user"
   },
   {
     name: "Find transh and recycling shedule",
@@ -71,22 +66,19 @@ const servicesItems = [
     name: "complete your jury questionaire",
     url: "https://www.google.com/maps",
     department: "Circuit Court",
-    icon: "fas fa-user",
-   
+    icon: "fas fa-user"
   },
   {
     name: "public information act request",
     url: "https://www.google.com/maps",
     department: "Office of Law",
-    icon: "fas fa-user",
-
+    icon: "fas fa-user"
   },
   {
     name: "open data portal",
     url: "https://www.google.com/maps",
     department: "County Executive",
-    icon: "fas fa-user",
- 
+    icon: "fas fa-user"
   },
   {
     name: "List of County holidays",
@@ -110,18 +102,15 @@ const ImagePlaceholder = ({ height = "150px", width = "100%" }) => (
   </svg>
 );
 
-
 const SampleCard2 = props => {
-  const { icon, name, department, url,rank } = props; 
-let starImg = { fontSize:'.2em' , float:'right', marginTop: '0px', width: '10px'};
+  const { icon, name, department, url } = props;
+
   return (
-    <div className="d-flex col-lg-3
-     col-md-6 col-sm-6">
+    <div className="d-flex col-lg-4 col-md-6 col-sm-6">
       <Card>
         <CardContent>
           <div className="dg_icon-container">
             <i className={icon} aria-hidden="true"></i>
-            <i className={rank} style={starImg} aria-hidden="true"/>
           </div>
           <h3>{name}</h3>
         </CardContent>
@@ -151,15 +140,18 @@ const mainContent = () => {
     <React.Fragment>
       <h2>Four Cards - Image, Text and Button</h2>
       <div className="row">
-        {sortedServicesItems.map((item, itemIndex) => (
+      <List items={sortedServicesItems} />
+        {/* <List
+        items={sortedServicesItems}
+        renderItem={({name,url,department,icon})=>(
           <SampleCard2
-            icon={item.icon}
-            name={item.name}
-            department={item.department}
-            url={item.url}
-            rank={item.rank===1?"fas fa-star":"none"}
+            icon={icon}
+            name={name}
+            department={department}
+            url={url}
           />
-        ))}
+        )}
+        /> */}
       </div>
     </React.Fragment>
   );

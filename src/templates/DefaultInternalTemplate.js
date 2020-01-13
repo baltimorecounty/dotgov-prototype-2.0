@@ -39,15 +39,15 @@ const DefaultInternalTemplate = props => {
       />
       <div className="container">
         <div className="row">
-          <div className="col-md-8 col-sm-12">
+          <div className=" col-md-8 col-sm-12">
             <div id="dg_main-content">
               {mainContentTitle && <h2>{mainContentTitle}</h2>}
               <MainContent />
             </div>
           </div>
-          <div className="col-md-4 col-sm-12">
+          {/* <div className="col-md-4 col-sm-12">
             <SideBarSection title="Contact Us">{SideBarContent}</SideBarSection>
-          </div>
+          </div> */}
         </div>
       </div>
       <SiteFooter />
